@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap');
+
+
+
+body{
+    background-color: #f4eff3;
+    margin: 0;
+    padding: 0;
+}
+
+.App{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+    
+}
+
+.text-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2%;
+    scale: 1.2;
+}
+
+.text-header h2{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #363535;
+}
+
+.text-header p{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: #636363;
+}
+
+.sign-in{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.sign-in input{
+    border: none;
+    width: 70%;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 2px 20px;
+}
+
+.sign-in-password{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%
+}
+
+.sign-in-password input{
+    margin: 0;
+}
+
+.sign-in-password button{
+    margin-right: 5px;
+    position: absolute;
+    z-index:2;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #b9b9b9;
+}
+
+.reset-password{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    background-color:#e7e1eb;
+    border: none;
+    color: #636363;
+    font-size: 12px;
+}
+
+hr{
+    width: 80%;
+}
